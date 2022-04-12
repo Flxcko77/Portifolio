@@ -8,7 +8,7 @@
 
 img {
     display: block;
-    max-width: 15%;
+    max-width: 59%;
 }
 
 li {
@@ -32,10 +32,20 @@ body {
 
 .box {
     padding: 4rem;
+    background: rgba(255, 255, 255, 0.10);
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
     border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-left: 160px;
+    justify-items: center;
+    width: 380px;
+    height: 425px;
+}
+
+.profile {
+    margin-top: 4rem;
 }
 
 .profile-pic {
@@ -55,13 +65,43 @@ p {
 }
 
 .redes-sociais {
-   background-color: red;
-   display: inline-flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    
   }
 
-  .redes-sociais li {
-    margin-right: 1rem;
 
-  }
+.redes-sociais li {
+    margin-right: 1rem
 
+}
+
+.Portifolio {
+    max-width: 886px;
+    box-sizing: border-box;
+    margin-top: 6rem;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    text-align: center;
+}
+
+.Portifolio ul {
+    margin-top: 2rem;
+}
+
+.Portifolio li {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+.Portifolio li img {
+    position: relative;
+    left: 155px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 1px 80px;
+    border: none;
+}
