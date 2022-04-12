@@ -67,12 +67,13 @@ p {
 .redes-sociais {
     display: flex;
     justify-content: center;
+    margin-left: 60px;
     
   }
 
 
 .redes-sociais li {
-    margin-right: 1rem
+    margin-right: 2rem;
 
 }
 
@@ -104,4 +105,18 @@ p {
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
     border-radius: 1px 80px;
     border: none;
+    margin-bottom: 1rem;
+}
+
+.Softskills {
+    opacity: 80%; 
+}
+
+.copyright {
+    position: relative;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 16px black;
+    margin: 20rem;
+    margin-top: 40px;
 }
